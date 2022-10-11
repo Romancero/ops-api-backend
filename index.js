@@ -13,23 +13,28 @@ app.use(logger);
 let pages = [
   {
     id: 1,
-    content: 'home',
+    path: 'home',
+    page: 'Home',
   },
   {
     id: 2,
-    content: 'schools',
+    path: 'schools',
+    page: 'Schools',
   },
   {
     id: 3,
-    content: 'events',
+    path: 'events',
+    page: 'Events',
   },
   {
     id: 4,
-    content: 'novelties',
+    path: 'novelties',
+    page: 'Novelties',
   },
   {
     id: 5,
-    content: 'contact',
+    path: 'contact',
+    page: 'Contact',
   },
 ];
 
