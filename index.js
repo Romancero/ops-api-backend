@@ -15,26 +15,31 @@ let pages = [
     id: 1,
     path: '/',
     page: 'Home',
+    icon: 'fa-solid fa-house',
   },
   {
     id: 2,
     path: '/schools',
     page: 'Schools',
+    icon: 'fa-solid fa-school',
   },
   {
     id: 3,
     path: '/events',
     page: 'Events',
+    icon: 'fa-regular fa-calendar-days',
   },
   {
     id: 4,
     path: '/novelties',
     page: 'Novelties',
+    icon: 'fa-solid fa-calendar-day',
   },
   {
     id: 5,
     path: '/contact',
     page: 'Contact',
+    icon: 'fa-solid fa-envelope',
   },
 ];
 
