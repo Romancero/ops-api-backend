@@ -41,12 +41,6 @@ let pages = [
     page: 'Contact',
     icon: 'fa-solid fa-envelope',
   },
-  {
-    id: 6,
-    path: '/about',
-    page: 'About',
-    icon: 'fa-solid fa-info',
-  }
 ];
 
 app.get('/', (request, response) => {
