@@ -140,7 +140,7 @@ let schoolNews = [
 ];
 
 app.get('/', (request, response) => {
-  response.send('<h1>Welcome to the site!</h1>');
+  response.send('<h1>Welcome to the site!</h1><h2>Parámetros disponibles</h2><ul><li>&#47</li><li>&#47api&#47pages</li><li>&#47api&#47pages&#47:id</li><li>&#47api&#47school-events</li><li>&#47api&#47school-events&#47:id</li><li>&#47api&#47school-news</li><li>&#47api&#47school-news&#47:id</li></ul>');
 });
 
 app.get('/api/pages', (request, response) => {
