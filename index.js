@@ -45,6 +45,256 @@ let pages = [
 
 //new Date().toISOString()
 
+let schools = [
+  {
+    id: 'MT0001',
+    nombre: 'ARMADA ARGENTINA',
+    localidad: 'ISIDRO CASANOVA',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_EN_ELECTROMECANICA',
+      'BIES_TTP_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+      'PLAN_NOCT_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+      'BAO_TECNOLOGIA',
+      'PSICOLOGIA SECUNDARIA',
+      'TECNICO EN ELECTRICIDAD',
+      'TECNICO_EN_ELECTROMECANICA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0002',
+    nombre: 'MARIA EVA DUARTE',
+    localidad: 'CDAD. EVITA',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_EN_AUTOMOTORES',
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0003',
+    nombre: 'MANUEL BELGRANO',
+    localidad: 'SAN JUSTO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'BIES_TTP_MAESTRO_MAYOR_DE_OBRAS',
+      'PLAN_NOCT_MAESTRO_MAYOR_DE_OBRAS',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0004',
+    nombre: 'JUAN MANUEL FANGIO',
+    localidad: 'SAN JUSTO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_EN_AUTOMOTORES',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0005',
+    nombre: 'ROBERTO NOBLE',
+    localidad: 'SAN JUSTO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_QUIMICO',
+      'TECNICO_EN_ELECTROMECANICA',
+      'PLAN_NOCT_INDUSTRIAS_DE_PROCESOS',
+      'PLAN_NOCT_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0006',
+    nombre: 'E.E.S.T. N°6',
+    localidad: 'ISIDRO CASANOVA',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'BIES_TTP_TECNICO_EN_ELECTRÓNICA',
+      'BIES_TTP_INFORMATICA_PERSONAL_Y_PROFESIONAL',
+      'TECNICO_INFORMATICA_PROFESIONAL_Y_PERSONAL',
+      'TECNICO_EN_ELECTRONICA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0007',
+    nombre: 'E.E.S.T. N°7',
+    localidad: 'G DE LAFERRERE',
+    turnos: [
+      'mañana',
+      'tarde',
+      'noche',
+    ],
+    especialidades: [
+      'BAO_TECNOLOGIA',
+      'BIES_TTP_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+      'TECNICO_EN_ELECTROMECANICA',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0008',
+    nombre: 'JORGE NEWBERY',
+    localidad: 'VILLA LUZURIAGA',
+    turnos: [
+      'mañana',
+      'tarde',
+      'noche',
+    ],
+    especialidades: [
+      'BIES_TTP_MEC_EN_MANTENIMIENTO_DE_AERONAVES',
+      'BIES_TTP_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+      'TECNICATURA_AERONAUTICA',
+      'TECNICO_EN_ELECTROMECANICA',
+      'TECNICO_EN_AERONAUTICA',
+      'SIN_VACANTES',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0009',
+    nombre: 'EEST Nº 9 "CRUCERO ARA GENERAL BELGRANO"',
+    localidad: 'BARRIO SARMIENTO, VILLA CELINA.	',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_EN_ELECTRONICA',
+      'TEC_EN_ADM_DE_LAS_ORGANIZACIONES',
+      'BAO_TECNOLOGIA',
+      'PSICOLOGIA SECUNDARIA',
+      'CAAT',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0010',
+    nombre: 'E.E.S.T. N°10',
+    localidad: 'VILLA MADERO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'TECNICO_INFORMATICA_PROFESIONAL_Y_PERSONAL',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0011',
+    nombre: '"ISLAS MALVINAS"',
+    localidad: 'CIUDAD EVITA',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_INFORMATICA_PROFESIONAL_Y_PERSONAL',
+      'TECNICO_EN_ELECTROMECANICA',
+      'PSICOLOGIA SECUNDARIA',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0012',
+    nombre: 'ITALIA',
+    localidad: 'SAN JUSTO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'noche',
+    ],
+    especialidades: [
+      'MECANICA',
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'TECNICO_EN_ELECTROMECANICA',
+      'CAAT',
+      'TECNICO_EN_ELECTROMECANICA',
+      'BAO_TECNOLOGIA',
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'SIN_VACANTES',
+      'PLAN_NOCT_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0013',
+    nombre: 'TECNICA 13',
+    localidad: 'VIRREY DEL PINO',
+    turnos: [
+      'mañana',
+      'tarde',
+      'noche',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNICO_EN_ELECTROMECANICA',
+      'MAESTRO_MAYOR_DE_OBRAS',
+      'SIN_VACANTES',
+      'PSICOLOGIA SECUNDARIA',
+      'SIN_VACANTES',
+      'CAAT',
+      'SIN_VACANTES',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  {
+    id: 'MT0014',
+    nombre: 'E.E.S.T. N°14',
+    localidad: 'GONZALEZ CATAN',
+    turnos: [
+      'mañana',
+      'tarde',
+      'vespertino',
+    ],
+    especialidades: [
+      'TECNOLOGIA_DE_LOS_ALIMENTOS',
+      'TECNICATURA_EN_PROGRAMACION',
+      'TECNICO_INFORMATICA_PROFESIONAL_Y_PERSONAL',
+    ],
+    img: 'logo_tecnica_14',
+  },
+  ];
+
 let schoolEvents = [
   {
     id: 1,
@@ -140,7 +390,7 @@ let schoolNews = [
 ];
 
 app.get('/', (request, response) => {
-  response.send('<h1>Welcome to the site!</h1><h2>Parámetros disponibles</h2><ul><li>&#47</li><li>&#47api&#47pages</li><li>&#47api&#47pages&#47:id</li><li>&#47api&#47school-events</li><li>&#47api&#47school-events&#47:id</li><li>&#47api&#47school-news</li><li>&#47api&#47school-news&#47:id</li></ul>');
+  response.send('<h1>Welcome to the site!</h1><h2>Parámetros disponibles</h2><ul><li>&#47</li><li>&#47api&#47pages</li><li>&#47api&#47pages&#47:id</li><li>&#47api&#47schools</li><li>&#47api&#47schools&#47:id</li><li>&#47api&#47school-events</li><li>&#47api&#47school-events&#47:id</li><li>&#47api&#47school-news</li><li>&#47api&#47school-news&#47:id</li></ul>');
 });
 
 app.get('/api/pages', (request, response) => {
@@ -160,6 +410,23 @@ app.get('/api/pages/:id', (request, response) => {
   }
 });
 
+app.get('/api/schools', (request, response) => {
+  response.json(schools);
+});
+
+app.get('/api/schools/:id', (request, response) => {
+  const id = Number(request.params.id);
+  const School = schools.find(School => School.id === id);
+
+  if (School) {
+    response.json(School);
+  } else {
+    response.status(404).json({
+      message: 'School not found',
+    });
+  }
+});
+
 app.get('/api/school-events', (request, response) => {
   response.json(schoolEvents);
 });
@@ -172,7 +439,7 @@ app.get('/api/school-events/:id', (request, response) => {
     response.json(schoolEvent);
   } else {
     response.status(404).json({
-      message: 'Page not found',
+      message: 'School Event not found',
     });
   }
 });
@@ -189,7 +456,7 @@ app.get('/api/school-news/:id', (request, response) => {
     response.json(schoolNew);
   } else {
     response.status(404).json({
-      message: 'Page not found',
+      message: 'School News not found',
     });
   }
 });
