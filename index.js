@@ -50,6 +50,7 @@ let schools = [
     id: 'MT0001',
     nombre: 'ARMADA ARGENTINA',
     localidad: 'ISIDRO CASANOVA',
+    acercaDe: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -65,11 +66,18 @@ let schools = [
       'TECNICO_EN_ELECTROMECANICA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0002',
     nombre: 'MARIA EVA DUARTE',
     localidad: 'CDAD. EVITA',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -81,11 +89,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0003',
     nombre: 'MANUEL BELGRANO',
     localidad: 'SAN JUSTO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -97,11 +112,18 @@ let schools = [
       'PLAN_NOCT_MAESTRO_MAYOR_DE_OBRAS',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0004',
     nombre: 'JUAN MANUEL FANGIO',
     localidad: 'SAN JUSTO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -111,11 +133,18 @@ let schools = [
       'TECNICO_EN_AUTOMOTORES',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0005',
     nombre: 'ROBERTO NOBLE',
     localidad: 'SAN JUSTO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -129,11 +158,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0006',
     nombre: 'E.E.S.T. N°6',
     localidad: 'ISIDRO CASANOVA',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -146,11 +182,18 @@ let schools = [
       'TECNICO_EN_ELECTRONICA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0007',
     nombre: 'E.E.S.T. N°7',
     localidad: 'G DE LAFERRERE',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -163,11 +206,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0008',
     nombre: 'JORGE NEWBERY',
     localidad: 'VILLA LUZURIAGA',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -183,11 +233,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0009',
     nombre: 'EEST Nº 9 "CRUCERO ARA GENERAL BELGRANO"',
     localidad: 'BARRIO SARMIENTO, VILLA CELINA.	',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -201,11 +258,18 @@ let schools = [
       'CAAT',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0010',
     nombre: 'E.E.S.T. N°10',
     localidad: 'VILLA MADERO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -217,11 +281,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0011',
     nombre: '"ISLAS MALVINAS"',
     localidad: 'CIUDAD EVITA',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -233,11 +304,18 @@ let schools = [
       'PSICOLOGIA SECUNDARIA',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0012',
     nombre: 'ITALIA',
     localidad: 'SAN JUSTO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -255,11 +333,18 @@ let schools = [
       'PLAN_NOCT_TEC_EQ_E_INSTALACIONES_ELECTROMECANICAS',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0013',
     nombre: 'TECNICA 13',
     localidad: 'VIRREY DEL PINO',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -276,11 +361,18 @@ let schools = [
       'SIN_VACANTES',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   {
     id: 'MT0014',
     nombre: 'E.E.S.T. N°14',
     localidad: 'GONZALEZ CATAN',
+    acercade: ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'],
     turnos: [
       'mañana',
       'tarde',
@@ -292,6 +384,12 @@ let schools = [
       'TECNICO_INFORMATICA_PROFESIONAL_Y_PERSONAL',
     ],
     img: 'logo_tecnica_14',
+    redesSociales: {
+      web: 'http://mt0690014.escuelas.gov.ar/?fbclid=IwAR0xAS4Rts1IQbVRZZ_K6yFN4rj5oviGHot3LG-PHevIOekIYhplRiFJ450',
+      instagram: 'https://www.instagram.com/dia_del_estudiante_tec14/',
+      facebook: 'https://www.facebook.com/tecnica.catorce',
+      twitter: 'https://twitter.com/',
+    },
   },
   ];
 
