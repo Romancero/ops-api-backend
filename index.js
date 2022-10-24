@@ -415,7 +415,7 @@ app.get('/api/schools', (request, response) => {
 });
 
 app.get('/api/schools/:id', (request, response) => {
-  const id = Number(request.params.id);
+  const id = String(request.params.id);
   const School = schools.find(School => School.id === id);
 
   if (School) {
