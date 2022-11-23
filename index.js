@@ -13,31 +13,31 @@ app.use(logger);
 let pages = [
   {
     id: 1,
-    path: '/',
+    path: 'opschool/',
     page: 'Home',
     icon: 'fa-solid fa-house',
   },
   {
     id: 2,
-    path: '/schools',
+    path: 'opschool/schools',
     page: 'Schools',
     icon: 'fa-solid fa-school',
   },
   {
     id: 3,
-    path: '/events',
+    path: 'opschool/events',
     page: 'Events',
     icon: 'fa-regular fa-calendar-days',
   },
   {
     id: 4,
-    path: '/novelties',
+    path: 'opschool/novelties',
     page: 'Novelties',
     icon: 'fa-solid fa-calendar-day',
   },
   {
     id: 5,
-    path: '/contact',
+    path: 'opschool/contact',
     page: 'Contact',
     icon: 'fa-solid fa-envelope',
   },
